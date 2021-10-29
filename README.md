@@ -1,8 +1,18 @@
-Welcome to the AWS CodeStar sample web application
+Welcome to the Zabama rewards test web application
 ==================================================
 
-This sample code helps get you started with a simple Node.js web application
-deployed by AWS CodeDeploy and AWS CloudFormation to an Amazon EC2 instance.
+The purpose of this webapp is to proof of concept Zabama rewards on the XRP ledger. 
+Using Stripe APIs,  we can test that rewards are granted when we purchase a t-shirt from the website. 
+
+View the running app here:
+http://ec2-3-84-145-119.compute-1.amazonaws.com/
+
+# Stripe demo payment details
+The demo is running in test mode -- use 4242424242424242 as a test card number with any CVC + future expiration date.
+Use the 4000002500003155 test card number to trigger a 3D Secure challenge flow.
+
+# Other notes.
+Rewards have not been fully integrated yet and will come in a later iteration. 
 
 What's Here
 -----------
