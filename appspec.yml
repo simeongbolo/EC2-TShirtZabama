@@ -3,7 +3,7 @@ os: linux
 files:
 - source: /app.js
   destination: /home/ec2-user/node-website
-- source: /.env
+- source: /env
   destination: /home/ec2-user/node-website
 - source: /package.json
   destination: /home/ec2-user/node-website
