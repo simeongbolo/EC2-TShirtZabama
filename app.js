@@ -1,3 +1,4 @@
+const port = process.env.PORT || 3000;
 const express = require('express');
 const app = express();
 const { resolve } = require('path');
@@ -125,7 +126,7 @@ app.post('/webhook', async (req, res) => {
   res.sendStatus(200);
 });
 
-app.listen(3000, () => console.log(`Node server listening on port ${3000}!`));
+app.listen(port,'0.0.0.0', () => console.log(`Node server listening on port ${port}!`));
 
 
 function checkEnv() {
