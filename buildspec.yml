@@ -31,8 +31,10 @@ artifacts:
     - README.md
     - package.json
     - app.js
+    - env
     - appspec.yml
     - scripts/*
     - node_modules/**/*
     - public/**/*
+    - client/**/*
     - template-configuration.json
