@@ -1,4 +1,4 @@
-DOMAIN="http://localhost:3000"
+DOMAIN="http://ec2-3-84-145-119.compute-1.amazonaws.com"
 PAYMENT_METHOD_TYPES="card"
 PRICE="price_1JplmAFE2m6lQ4OuXxMIRivD"
 STATIC_DIR="client"
